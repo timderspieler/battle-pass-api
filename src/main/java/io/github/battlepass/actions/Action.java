@@ -1,8 +1,8 @@
 package io.github.battlepass.actions;
 
-import com.sun.istack.internal.Nullable;
 import me.hyfe.simplespigot.text.Replacer;
 import org.bukkit.entity.Player;
+import org.jetbrains.annotations.Nullable;
 
 public abstract class Action {
     protected final String condition;

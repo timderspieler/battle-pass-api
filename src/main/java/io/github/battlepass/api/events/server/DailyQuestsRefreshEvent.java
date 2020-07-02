@@ -20,7 +20,8 @@ public class DailyQuestsRefreshEvent extends Event {
     }
 
     @Override
-    public @NotNull HandlerList getHandlers() {
+    public @NotNull
+    HandlerList getHandlers() {
         return HANDLER_LIST;
     }
 }

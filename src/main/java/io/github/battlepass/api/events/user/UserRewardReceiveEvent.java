@@ -1,12 +1,12 @@
 package io.github.battlepass.api.events.user;
 
+import org.jetbrains.annotations.NotNull;
 import io.github.battlepass.objects.pass.Tier;
 import io.github.battlepass.objects.reward.Reward;
 import io.github.battlepass.objects.user.User;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
 
@@ -50,7 +50,8 @@ public class UserRewardReceiveEvent extends Event implements Cancellable {
     }
 
     @Override
-    public @NotNull HandlerList getHandlers() {
+    public @NotNull
+    HandlerList getHandlers() {
         return HANDLER_LIST;
     }
 }

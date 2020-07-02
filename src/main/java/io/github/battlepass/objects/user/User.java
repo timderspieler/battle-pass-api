@@ -1,7 +1,7 @@
 package io.github.battlepass.objects.user;
 
-import com.sun.istack.internal.Nullable;
 import org.bukkit.entity.Player;
+import org.jetbrains.annotations.Nullable;
 
 import java.math.BigInteger;
 import java.util.Map;
